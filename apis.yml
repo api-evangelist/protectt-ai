@@ -1,8 +1,31 @@
 aid: protectt-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/protectt-ai.png
 name: Protectt AI
-description: 'Protectt AI is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Protectt.ai (Protectt.ai Labs Pvt Ltd) is an AI-native, full-stack mobile
+  application security and fraud-control platform for Android and iOS. Its
+  products — AppProtectt (RASP with 100+ runtime protections against hooking,
+  spoofing, reverse engineering, tampering, MITM and SMS exploitation), SDKProtectt
+  (SDK hardening/obfuscation), and ApiProtectt (API security) — embed as a
+  lightweight SDK with zero performance overhead and no disruption to release
+  cycles. The company targets banking, financial services and regulated
+  enterprises (RBL Bank, Yes Bank, BSE, Bajaj Finserv, LIC), is ISO 27001 / ISO
+  42001 / ISO 22301 and PCI DSS certified, and aligns to RBI, SEBI and NPCI
+  security mandates. It is headquartered in Mumbai with offices in Dover
+  (Delaware, US) and Dubai (UAE). Protectt.ai ships enterprise SDKs to customers
+  rather than a public developer portal or open API — no OpenAPI, SDK registry
+  package, or public API reference is published.
 url: https://raw.githubusercontent.com/api-evangelist/protectt-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Ml
+- Mobile App Security
+- RASP
+- Application Security
+- Fraud Prevention
+- API Security
+- Fintech
+- Cybersecurity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.protectt.ai/
+- type: Blog
+  url: https://feeds.protectt.ai/blog
+- type: Compliance
+  url: https://protectt.ai/feeds/service/app-security
+- type: Conformance
+  url: conformance/protectt-ai-conformance.yml
+- type: DomainSecurity
+  url: security/protectt-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

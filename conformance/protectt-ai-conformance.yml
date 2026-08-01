@@ -1,0 +1,40 @@
+generated: '2026-07-20'
+method: searched
+source: https://protectt.ai/feeds/service/app-security
+note: >-
+  Protectt.ai is an enterprise mobile app security / RASP and fraud-control
+  vendor. It publishes no public OpenAPI, developer portal, or standards-based
+  API surface, so cross-cutting API standards (oauth2, oidc, rfc9457, etc.)
+  cannot be asserted. The entries below are the security/compliance
+  certifications and regulatory frameworks the company publicly claims on its
+  service pages.
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: >-
+    "ISO 27001 & PCI DSS Certified" stated across service pages
+    (app-security, enterprise-data-protection, mobile-threat-intelligence).
+- id: iso-42001
+  conforms: true
+  evidence: ISO 42001 (AI management system) named on app-security service page.
+- id: iso-22301
+  conforms: true
+  evidence: ISO 22301 (business continuity) named on service pages.
+- id: pci-dss
+  conforms: true
+  evidence: >-
+    PCI DSS certification stated on app-security and
+    payment-fraud-detection service pages.
+- id: rbi-digital-payment-security-controls
+  conforms: true
+  evidence: Pre-built compliance frameworks aligned with RBI Digital Payment Security Controls.
+- id: sebi-cscrf
+  conforms: true
+  evidence: Aligned with SEBI Cybersecurity and Cyber Resilience Framework.
+- id: npci-device-binding
+  conforms: true
+  evidence: Aligned with NPCI SIM and Device Binding controls.
+compliance_pages:
+- https://protectt.ai/feeds/service/app-security
+- https://protectt.ai/feeds/service/payment-fraud-detection-solution
+- https://feeds.protectt.ai/service/mobile-threat-intelligence
