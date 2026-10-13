@@ -1,0 +1,25 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-o5kdl2rvv43sg
+  listing_count: 5
+  apps:
+  - Protectt.ai AIProtectt
+  - AppProtectt
+  - AppBind
+  - Code Protectt
+  - AppSMV
+  seller_name: Protectt.ai Labs Pvt. Ltd
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
